@@ -1,0 +1,1 @@
+Etiquetas semánticas: Su importancia es el significado que tienen para el navegador
