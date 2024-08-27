@@ -1,0 +1,92 @@
+        /* Le indico al navegador que el texto dentro de esta etiqueta debe ser interpretado 
+        como hoja de estilos o (css) */
+        /* SELECTOR UNIVERSAL (*) */
+
+       /*  *{font-family: Verdana, Geneva, Tahoma, sans-serif;} /* Generalmente se pone al principio de todo */
+        /* body{
+            background-color: aqua;
+        } */ 
+        /* Selectores: formas que tiene css de poder seleccionar elementos de html */
+
+        /* SELECTOR DE ELEMENTOS */
+        /* Tanto el h1 como el h2 tendrán estos estilos */
+        /*  h1, h2{
+            color:blueviolet;
+            background-color: black;
+            font-size: 80px;
+        } */
+
+        /* SELECTOR DE CLASE */
+        /* .titulo-especial{
+            color: red;
+            font-size: 50px;
+            background-color: green;
+        } */
+
+        /* SELECTOR DE ID */
+        /*    #titulo-super-especial{
+            color: blue;
+        } */
+        
+        /* .subrayado{
+            text-decoration: 1px solid underline black;
+        } */
+
+        /* PROPIEDADES */
+
+        h2{
+            color: rgb(0, 76, 255);
+            font-size: 24px;
+            letter-spacing: 2px;  /* Espaciado de letras */
+            word-spacing: 10px; /* Espaciado entre palabras */
+            text-decoration: red 5px dotted underline;
+            text-align: center;
+            
+            /* Recibe 4 valores:
+            color;
+            tamaño unidad de medida;
+            tipo: solid, wavy, dashed, dotted, double
+            ubicación: overline, line-through, underline
+            text-shadow:
+            x
+            y
+            difuminado/blur
+            color;
+            */
+            background-color:black ;
+            text-shadow: 0px 0px 5px rgb(0, 51, 255) ;
+            
+        }
+
+        p{
+            line-height: 40px; /* Espaciado entre lineas */
+            text-align: justify;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            box-shadow: 1px 1px 2px 5px rgb(118, 118, 118),
+            inset 0 0 3px rgb(92, 92, 92) ;
+        }
+
+        /* 
+        Propiedades de texto
+        Propiedades de background
+        Propoiedades de border
+        Propiedades de border
+        Propiedades de caja/box
+
+        Nos permiten posicionar elementos:
+        -float (ya no se usa)
+        -flexbox (SUPER IMPORTANTE)
+        -grid
+        -position: Casos en particular
+
+        Diseño responsivo
+        Mediaquerys
+
+        Animaciones y transiciones
+        @keyframes
+        */
