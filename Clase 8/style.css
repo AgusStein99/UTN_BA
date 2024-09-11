@@ -1,0 +1,20 @@
+*{
+    /* Normalización de estilo */
+    box-sizing: border-box;
+    margin: 0px; 
+    padding: 0px;
+}
+
+body{
+    background-color: green;
+    
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 10px ;
+
+}

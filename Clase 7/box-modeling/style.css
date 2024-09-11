@@ -23,5 +23,52 @@
     border-right: none;
     border-left: 3px dotted yellow;
     margin: 10px 20px;
+    display: inline-block;
 }
 
+.caja-1{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.btn{
+    padding: 20px;
+    margin-top: 50px;
+    width: 200px;
+    display: block;
+}
+
+.link{
+    margin-top: 90px;
+    padding: 10px;
+    background-color: red;
+    width: 700px;
+    display: inline-block;
+}
+/* 
+ELEMENTOS EN BLOQUE (BLOCK)
+div, article, body, header, footer, h1-h6, p, aside, section, main, 
+nav, form, br, hr, ul, li, ol (mayoría de elementos contenedores)
+
+No se alinean entre si. Ocupan todo el bloque (un elemento abajo del otro)
+Se les puede dar ancho, alto, margen y padding.
+
+ELEMENTOS EN LINEA (INLINE)
+a, span, label, b, strong, i, (mayoría de elementos decorativos)
+
+Ocupan solo el contenido. Se alinean entre si. (un elemento al lado del otro)
+No se les puede modificar sus dimensiones alto o ancho, tampoco se les puede
+dar correctamente padding vertical ni margen vertical.
+
+ELEMENTOS EN LINEA EN BLOQUE (INLINE-BLOCK)
+
+button, img, input, video, iframe, audio
+
+Ocupan sólo el contenido. Se les puede dar dimensiones. Se les puede dar 
+padding, margin, etc. Se alinean entre sí.
+ */
+
+input{
+    width: 600px;
+    height: 200px;
+}
