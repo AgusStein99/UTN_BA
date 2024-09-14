@@ -3,18 +3,63 @@
     box-sizing: border-box;
     margin: 0px; 
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: green;
-    
 }
 
+.padre{
+    display: flex;
+    flex-direction: row ;/* Determina la dirección de mi flexbox (columna=column o fila=row) */
+    gap: 20px; /* Unicamente espaciado entre hijos (Determina el mínimo espacio entre los hijos) */
+     justify-content: center; /*Se traza un eje x y el contenido se centra respecto a dicho eje */ 
+    /* justify-content: flex-start; (Alinea el contenido hacia la izquierda "Valor por defecto") */
+    /* justify-content: flex-end; (Alinea el contenido hacia la derecha) */
+    /* justify-content: space-between;  Hace el máximo espacio posible entre los hijos (centrado) se calcula a medida que se reduce la pantalla "espacio sobrante/(cant. hijos-1)" */
+    /*justify-content: space-evenly;  Realiza el máximo espaciado posible hacia todas las direcciones y entre hijos "espacio sobrante/(cant. hijos + 1)". Casi no se utiliza*/
+    /*justify-content: space-around; Realiza el máximo espacio posible entre los hijos y divide dicho espacio entre los bordes. "(espacio sobrante/cant. de hijos)/2". Casi no se utiliza. */
+    align-items: center;
+    padding: 20px 40px;
+    background-color: blue;
+    height: 100vh; /* Viewport height: Altura respecto a tamaño de página. 100% De la altura de mi página */
+}
+.padre-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    background-color: red;
+    height: 100vh;
+    align-items: center;
+}
 .hijo{
     width: 200px;
     height: 200px;
-    background-color: blueviolet;
+    background-color: rgb(255, 0, 234);
     border: 1px solid black;
+    border-radius: 10px;
+}
+header{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
     border-radius: 10px ;
+}
 
+header .logo-container{
+    display: flex;
+    gap: 20px;
+}
+
+header nav{
+    gap: 20px;
+}
+
+header nav a{
+    text-decoration: none;
 }
